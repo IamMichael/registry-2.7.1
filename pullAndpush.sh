@@ -63,8 +63,8 @@ case "$1" in
   "-h")
     echo  
     echo "sh $0 -h                                     #帮助"
-    echo "sh $0 pull image1:version1 image2_version2   #下载"
-    echo "sh $0 push image1:version1 image2_version2   #上传"
+    echo "sh $0 pull image1:version1 image2:version2   #下载"
+    echo "sh $0 push image1:version1 image2:version2   #上传"
     echo
 ;;
   "pull")
